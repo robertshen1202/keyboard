@@ -1,0 +1,900 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L keyboard:MX-NoLED MX1
+U 1 1 60600A07
+P 2000 2050
+F 0 "MX1" H 2033 2273 60  0000 C CNN
+F 1 "MX-NoLED" H 2033 2199 20  0000 C CNN
+F 2 "keyboard:MX-1U-NoLED" H 1375 2025 60  0001 C CNN
+F 3 "" H 1375 2025 60  0001 C CNN
+	1    2000 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT42W-V D1
+U 1 1 6060B0D3
+P 1650 2350
+F 0 "D1" V 1696 2271 50  0000 R CNN
+F 1 "BAT42W-V" V 1605 2271 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1650 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85660/bat42.pdf" H 1650 2350 50  0001 C CNN
+	1    1650 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1650 2200 1950 2200
+$Comp
+L keyboard:MX-NoLED MX6
+U 1 1 606592B6
+P 2750 2050
+F 0 "MX6" H 2783 2273 60  0000 C CNN
+F 1 "MX-NoLED" H 2783 2199 20  0000 C CNN
+F 2 "keyboard:MX-1U-NoLED" H 2125 2025 60  0001 C CNN
+F 3 "" H 2125 2025 60  0001 C CNN
+	1    2750 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT42W-V D6
+U 1 1 606592BC
+P 2400 2350
+F 0 "D6" V 2446 2271 50  0000 R CNN
+F 1 "BAT42W-V" V 2355 2271 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2400 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85660/bat42.pdf" H 2400 2350 50  0001 C CNN
+	1    2400 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2400 2200 2700 2200
+$Comp
+L keyboard:MX-NoLED MX10
+U 1 1 6065A971
+P 3500 2050
+F 0 "MX10" H 3533 2273 60  0000 C CNN
+F 1 "MX-NoLED" H 3533 2199 20  0000 C CNN
+F 2 "keyboard:MX-1U-NoLED" H 2875 2025 60  0001 C CNN
+F 3 "" H 2875 2025 60  0001 C CNN
+	1    3500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT42W-V D10
+U 1 1 6065A977
+P 3150 2350
+F 0 "D10" V 3196 2271 50  0000 R CNN
+F 1 "BAT42W-V" V 3105 2271 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3150 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85660/bat42.pdf" H 3150 2350 50  0001 C CNN
+	1    3150 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3150 2200 3450 2200
+$Comp
+L keyboard:MX-NoLED MX15
+U 1 1 6065BED8
+P 4250 2050
+F 0 "MX15" H 4283 2273 60  0000 C CNN
+F 1 "MX-NoLED" H 4283 2199 20  0000 C CNN
+F 2 "keyboard:MX-1U-NoLED" H 3625 2025 60  0001 C CNN
+F 3 "" H 3625 2025 60  0001 C CNN
+	1    4250 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT42W-V D15
+U 1 1 6065BEDE
+P 3900 2350
+F 0 "D15" V 3946 2271 50  0000 R CNN
+F 1 "BAT42W-V" V 3855 2271 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3900 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85660/bat42.pdf" H 3900 2350 50  0001 C CNN
+	1    3900 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 2200 4200 2200
+$Comp
+L keyboard:MX-NoLED MX2
+U 1 1 6066D299
+P 2000 2800
+F 0 "MX2" H 2033 3023 60  0000 C CNN
+F 1 "MX-NoLED" H 2033 2949 20  0000 C CNN
+F 2 "keyboard:MX-1U-NoLED" H 1375 2775 60  0001 C CNN
+F 3 "" H 1375 2775 60  0001 C CNN
+	1    2000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT42W-V D2
+U 1 1 6066D29F
+P 1650 3100
+F 0 "D2" V 1696 3021 50  0000 R CNN
+F 1 "BAT42W-V" V 1605 3021 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1650 2925 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85660/bat42.pdf" H 1650 3100 50  0001 C CNN
+	1    1650 3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1650 2950 1950 2950
+$Comp
+L keyboard:MX-NoLED MX7
+U 1 1 6066D2A6
+P 2750 2800
+F 0 "MX7" H 2783 3023 60  0000 C CNN
+F 1 "MX-NoLED" H 2783 2949 20  0000 C CNN
+F 2 "keyboard:MX-1U-NoLED" H 2125 2775 60  0001 C CNN
+F 3 "" H 2125 2775 60  0001 C CNN
+	1    2750 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT42W-V D7
+U 1 1 6066D2AC
+P 2400 3100
+F 0 "D7" V 2446 3021 50  0000 R CNN
+F 1 "BAT42W-V" V 2355 3021 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2400 2925 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85660/bat42.pdf" H 2400 3100 50  0001 C CNN
+	1    2400 3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2400 2950 2700 2950
+$Comp
+L keyboard:MX-NoLED MX11
+U 1 1 6066D2B3
+P 3500 2800
+F 0 "MX11" H 3533 3023 60  0000 C CNN
+F 1 "MX-NoLED" H 3533 2949 20  0000 C CNN
+F 2 "keyboard:MX-1U-NoLED" H 2875 2775 60  0001 C CNN
+F 3 "" H 2875 2775 60  0001 C CNN
+	1    3500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT42W-V D11
+U 1 1 6066D2B9
+P 3150 3100
+F 0 "D11" V 3196 3021 50  0000 R CNN
+F 1 "BAT42W-V" V 3105 3021 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3150 2925 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85660/bat42.pdf" H 3150 3100 50  0001 C CNN
+	1    3150 3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3150 2950 3450 2950
+$Comp
+L keyboard:MX-NoLED MX16
+U 1 1 6066D2C0
+P 4250 2800
+F 0 "MX16" H 4283 3023 60  0000 C CNN
+F 1 "MX-NoLED" H 4283 2949 20  0000 C CNN
+F 2 "keyboard:MX-2U-NoLED" H 3625 2775 60  0001 C CNN
+F 3 "" H 3625 2775 60  0001 C CNN
+	1    4250 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT42W-V D16
+U 1 1 6066D2C6
+P 3900 3100
+F 0 "D16" V 3946 3021 50  0000 R CNN
+F 1 "BAT42W-V" V 3855 3021 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3900 2925 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85660/bat42.pdf" H 3900 3100 50  0001 C CNN
+	1    3900 3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 2950 4200 2950
+$Comp
+L keyboard:MX-NoLED MX3
+U 1 1 6067FA51
+P 2000 3550
+F 0 "MX3" H 2033 3773 60  0000 C CNN
+F 1 "MX-NoLED" H 2033 3699 20  0000 C CNN
+F 2 "keyboard:MX-1U-NoLED" H 1375 3525 60  0001 C CNN
+F 3 "" H 1375 3525 60  0001 C CNN
+	1    2000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT42W-V D3
+U 1 1 6067FA57
+P 1650 3850
+F 0 "D3" V 1696 3771 50  0000 R CNN
+F 1 "BAT42W-V" V 1605 3771 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1650 3675 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85660/bat42.pdf" H 1650 3850 50  0001 C CNN
+	1    1650 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1650 3700 1950 3700
+$Comp
+L keyboard:MX-NoLED MX8
+U 1 1 6067FA5E
+P 2750 3550
+F 0 "MX8" H 2783 3773 60  0000 C CNN
+F 1 "MX-NoLED" H 2783 3699 20  0000 C CNN
+F 2 "keyboard:MX-1U-NoLED" H 2125 3525 60  0001 C CNN
+F 3 "" H 2125 3525 60  0001 C CNN
+	1    2750 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT42W-V D8
+U 1 1 6067FA64
+P 2400 3850
+F 0 "D8" V 2446 3771 50  0000 R CNN
+F 1 "BAT42W-V" V 2355 3771 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2400 3675 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85660/bat42.pdf" H 2400 3850 50  0001 C CNN
+	1    2400 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2400 3700 2700 3700
+$Comp
+L keyboard:MX-NoLED MX12
+U 1 1 6067FA6B
+P 3500 3550
+F 0 "MX12" H 3533 3773 60  0000 C CNN
+F 1 "MX-NoLED" H 3533 3699 20  0000 C CNN
+F 2 "keyboard:MX-1U-NoLED" H 2875 3525 60  0001 C CNN
+F 3 "" H 2875 3525 60  0001 C CNN
+	1    3500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT42W-V D12
+U 1 1 6067FA71
+P 3150 3850
+F 0 "D12" V 3196 3771 50  0000 R CNN
+F 1 "BAT42W-V" V 3105 3771 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3150 3675 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85660/bat42.pdf" H 3150 3850 50  0001 C CNN
+	1    3150 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3150 3700 3450 3700
+$Comp
+L keyboard:MX-NoLED MX4
+U 1 1 6067FA85
+P 2000 4300
+F 0 "MX4" H 2033 4523 60  0000 C CNN
+F 1 "MX-NoLED" H 2033 4449 20  0000 C CNN
+F 2 "keyboard:MX-1U-NoLED" H 1375 4275 60  0001 C CNN
+F 3 "" H 1375 4275 60  0001 C CNN
+	1    2000 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT42W-V D4
+U 1 1 6067FA8B
+P 1650 4600
+F 0 "D4" V 1696 4521 50  0000 R CNN
+F 1 "BAT42W-V" V 1605 4521 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1650 4425 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85660/bat42.pdf" H 1650 4600 50  0001 C CNN
+	1    1650 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1650 4450 1950 4450
+$Comp
+L keyboard:MX-NoLED MX9
+U 1 1 6067FA92
+P 2750 4300
+F 0 "MX9" H 2783 4523 60  0000 C CNN
+F 1 "MX-NoLED" H 2783 4449 20  0000 C CNN
+F 2 "keyboard:MX-1U-NoLED" H 2125 4275 60  0001 C CNN
+F 3 "" H 2125 4275 60  0001 C CNN
+	1    2750 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT42W-V D9
+U 1 1 6067FA98
+P 2400 4600
+F 0 "D9" V 2446 4521 50  0000 R CNN
+F 1 "BAT42W-V" V 2355 4521 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2400 4425 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85660/bat42.pdf" H 2400 4600 50  0001 C CNN
+	1    2400 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2400 4450 2700 4450
+$Comp
+L keyboard:MX-NoLED MX13
+U 1 1 6067FA9F
+P 3500 4300
+F 0 "MX13" H 3533 4523 60  0000 C CNN
+F 1 "MX-NoLED" H 3533 4449 20  0000 C CNN
+F 2 "keyboard:MX-1U-NoLED" H 2875 4275 60  0001 C CNN
+F 3 "" H 2875 4275 60  0001 C CNN
+	1    3500 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT42W-V D13
+U 1 1 6067FAA5
+P 3150 4600
+F 0 "D13" V 3196 4521 50  0000 R CNN
+F 1 "BAT42W-V" V 3105 4521 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3150 4425 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85660/bat42.pdf" H 3150 4600 50  0001 C CNN
+	1    3150 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3150 4450 3450 4450
+$Comp
+L keyboard:MX-NoLED MX17
+U 1 1 6067FAAC
+P 4250 4300
+F 0 "MX17" H 4283 4523 60  0000 C CNN
+F 1 "MX-NoLED" H 4283 4449 20  0000 C CNN
+F 2 "keyboard:MX-2U-NoLED" H 3625 4275 60  0001 C CNN
+F 3 "" H 3625 4275 60  0001 C CNN
+	1    4250 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT42W-V D17
+U 1 1 6067FAB2
+P 3900 4600
+F 0 "D17" V 3946 4521 50  0000 R CNN
+F 1 "BAT42W-V" V 3855 4521 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3900 4425 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85660/bat42.pdf" H 3900 4600 50  0001 C CNN
+	1    3900 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 4450 4200 4450
+$Comp
+L keyboard:MX-NoLED MX5
+U 1 1 606914AF
+P 2000 5050
+F 0 "MX5" H 2033 5273 60  0000 C CNN
+F 1 "MX-NoLED" H 2033 5199 20  0000 C CNN
+F 2 "keyboard:MX-2U-NoLED" H 1375 5025 60  0001 C CNN
+F 3 "" H 1375 5025 60  0001 C CNN
+	1    2000 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 5200 1950 5200
+$Comp
+L keyboard:MX-NoLED MX14
+U 1 1 606914C9
+P 3500 5050
+F 0 "MX14" H 3533 5273 60  0000 C CNN
+F 1 "MX-NoLED" H 3533 5199 20  0000 C CNN
+F 2 "keyboard:MX-1U-NoLED" H 2875 5025 60  0001 C CNN
+F 3 "" H 2875 5025 60  0001 C CNN
+	1    3500 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 5200 3450 5200
+$Comp
+L Diode:BAT42W-V D5
+U 1 1 606914B5
+P 1650 5350
+F 0 "D5" V 1696 5271 50  0000 R CNN
+F 1 "BAT42W-V" V 1605 5271 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1650 5175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85660/bat42.pdf" H 1650 5350 50  0001 C CNN
+	1    1650 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAT42W-V D14
+U 1 1 606914CF
+P 3150 5350
+F 0 "D14" V 3196 5271 50  0000 R CNN
+F 1 "BAT42W-V" V 3105 5271 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3150 5175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85660/bat42.pdf" H 3150 5350 50  0001 C CNN
+	1    3150 5350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2150 1500 2150 2000
+Connection ~ 2150 2000
+Wire Wire Line
+	2150 2000 2150 2750
+Connection ~ 2150 2750
+Wire Wire Line
+	2150 2750 2150 3500
+Connection ~ 2150 3500
+Wire Wire Line
+	2150 3500 2150 4250
+Connection ~ 2150 4250
+Wire Wire Line
+	2150 4250 2150 5000
+Wire Wire Line
+	2900 1500 2900 2000
+Connection ~ 2900 2000
+Wire Wire Line
+	2900 2000 2900 2750
+Connection ~ 2900 2750
+Wire Wire Line
+	2900 2750 2900 3500
+Connection ~ 2900 3500
+Wire Wire Line
+	2900 3500 2900 4250
+Wire Wire Line
+	3650 1500 3650 2000
+Connection ~ 3650 2000
+Wire Wire Line
+	3650 2000 3650 2750
+Connection ~ 3650 2750
+Wire Wire Line
+	3650 2750 3650 3500
+Connection ~ 3650 3500
+Wire Wire Line
+	3650 3500 3650 4250
+Connection ~ 3650 4250
+Wire Wire Line
+	3650 4250 3650 5000
+Wire Wire Line
+	4400 1500 4400 2000
+Connection ~ 4400 2000
+Wire Wire Line
+	4400 2000 4400 2750
+Connection ~ 4400 2750
+Wire Wire Line
+	4400 2750 4400 4250
+Wire Wire Line
+	1150 2500 1650 2500
+Connection ~ 1650 2500
+Wire Wire Line
+	1650 2500 2400 2500
+Connection ~ 2400 2500
+Wire Wire Line
+	2400 2500 3150 2500
+Connection ~ 3150 2500
+Wire Wire Line
+	3150 2500 3900 2500
+Wire Wire Line
+	1150 3250 1650 3250
+Connection ~ 1650 3250
+Wire Wire Line
+	1650 3250 2400 3250
+Connection ~ 2400 3250
+Wire Wire Line
+	2400 3250 3150 3250
+Connection ~ 3150 3250
+Wire Wire Line
+	3150 3250 3900 3250
+Wire Wire Line
+	1150 4000 1650 4000
+Connection ~ 1650 4000
+Wire Wire Line
+	1650 4000 2400 4000
+Connection ~ 2400 4000
+Wire Wire Line
+	2400 4000 3150 4000
+Wire Wire Line
+	1150 4750 1650 4750
+Connection ~ 1650 4750
+Wire Wire Line
+	1650 4750 2400 4750
+Connection ~ 2400 4750
+Wire Wire Line
+	2400 4750 3150 4750
+Connection ~ 3150 4750
+Wire Wire Line
+	3150 4750 3900 4750
+Wire Wire Line
+	1150 5500 1650 5500
+Connection ~ 1650 5500
+Wire Wire Line
+	1650 5500 3150 5500
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 610540D5
+P 9550 3200
+F 0 "U1" H 10050 1350 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 10050 1250 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 9550 3200 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 9550 3200 50  0001 C CNN
+	1    9550 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 6105744B
+P 9450 5100
+F 0 "#PWR0101" H 9450 4850 50  0001 C CNN
+F 1 "GND" H 9455 4927 50  0000 C CNN
+F 2 "" H 9450 5100 50  0001 C CNN
+F 3 "" H 9450 5100 50  0001 C CNN
+	1    9450 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 5000 9450 5050
+Wire Wire Line
+	9550 5000 9550 5050
+Wire Wire Line
+	9550 5050 9450 5050
+Connection ~ 9450 5050
+Wire Wire Line
+	9450 5050 9450 5100
+Text GLabel 2150 1500 1    50   Input ~ 0
+column_0
+Text GLabel 2900 1500 1    50   Input ~ 0
+column_1
+Text GLabel 3650 1500 1    50   Input ~ 0
+column_2
+Text GLabel 4400 1500 1    50   Input ~ 0
+column_3
+Text GLabel 1150 2500 0    50   Input ~ 0
+row_0
+Text GLabel 1150 3250 0    50   Input ~ 0
+row_1
+Text GLabel 1150 4000 0    50   Input ~ 0
+row_2
+Text GLabel 1150 4750 0    50   Input ~ 0
+row_3
+Text GLabel 1150 5500 0    50   Input ~ 0
+row_4
+Text GLabel 8800 1900 0    50   Input ~ 0
+IC_XTAL1
+Text GLabel 8800 2100 0    50   Input ~ 0
+IC_XTAL2
+Text Notes 1600 900  0    157  ~ 0
+Keyboard Matrix
+Text Notes 8600 900  0    157  ~ 0
+Microcontroller
+$Comp
+L Device:C C1
+U 1 1 61071425
+P 8650 3250
+F 0 "C1" H 8765 3296 50  0000 L CNN
+F 1 "1uF" H 8765 3205 50  0000 L CNN
+F 2 "" H 8688 3100 50  0001 C CNN
+F 3 "~" H 8650 3250 50  0001 C CNN
+	1    8650 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 3000 8650 3000
+Wire Wire Line
+	8650 3000 8650 3100
+$Comp
+L power:GND #PWR0102
+U 1 1 61076D70
+P 8650 3400
+F 0 "#PWR0102" H 8650 3150 50  0001 C CNN
+F 1 "GND" H 8655 3227 50  0000 C CNN
+F 2 "" H 8650 3400 50  0001 C CNN
+F 3 "" H 8650 3400 50  0001 C CNN
+	1    8650 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 61078E78
+P 6150 2400
+F 0 "#PWR0103" H 6150 2150 50  0001 C CNN
+F 1 "GND" H 6155 2227 50  0000 C CNN
+F 2 "" H 6150 2400 50  0001 C CNN
+F 3 "" H 6150 2400 50  0001 C CNN
+	1    6150 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 6107A8B5
+P 5650 2050
+F 0 "C2" H 5765 2096 50  0000 L CNN
+F 1 "C" H 5765 2005 50  0000 L CNN
+F 2 "" H 5688 1900 50  0001 C CNN
+F 3 "~" H 5650 2050 50  0001 C CNN
+	1    5650 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 6107BA69
+P 6650 2050
+F 0 "C3" H 6765 2096 50  0000 L CNN
+F 1 "C" H 6765 2005 50  0000 L CNN
+F 2 "" H 6688 1900 50  0001 C CNN
+F 3 "~" H 6650 2050 50  0001 C CNN
+	1    6650 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal_GND24_Small Y1
+U 1 1 6107D184
+P 6150 1750
+F 0 "Y1" H 6100 2150 50  0000 L CNN
+F 1 "Crystal_GND24_Small" H 5750 2050 50  0000 L CNN
+F 2 "" H 6150 1750 50  0001 C CNN
+F 3 "~" H 6150 1750 50  0001 C CNN
+	1    6150 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 1750 5650 1750
+Wire Wire Line
+	5650 1750 5650 1900
+Wire Wire Line
+	6250 1750 6650 1750
+Wire Wire Line
+	6650 1750 6650 1900
+Wire Wire Line
+	6150 1550 6350 1550
+Wire Wire Line
+	6350 1950 6150 1950
+Wire Wire Line
+	6150 1950 6150 1850
+Wire Wire Line
+	5650 1750 5650 1450
+Connection ~ 5650 1750
+Wire Wire Line
+	6650 1750 6650 1450
+Connection ~ 6650 1750
+Text GLabel 5650 1450 1    50   Input ~ 0
+IC_XTAL1
+Text GLabel 6650 1450 1    50   Input ~ 0
+IC_XTAL2
+Wire Wire Line
+	6150 1550 6150 1650
+Wire Wire Line
+	6350 1550 6350 1950
+Wire Wire Line
+	5650 2300 6150 2300
+Wire Wire Line
+	6150 2300 6150 2400
+Wire Wire Line
+	6150 2300 6650 2300
+Connection ~ 6150 2300
+Wire Wire Line
+	6150 1950 6150 2300
+Connection ~ 6150 1950
+Wire Wire Line
+	5650 2200 5650 2300
+Wire Wire Line
+	6650 2200 6650 2300
+Text Notes 5100 900  0    157  ~ 0
+Crystal Oscilliator
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J1
+U 1 1 610CD880
+P 5550 4250
+F 0 "J1" H 5657 5117 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 5657 5026 50  0000 C CNN
+F 2 "" H 5700 4250 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 5700 4250 50  0001 C CNN
+	1    5550 4250
+	1    0    0    -1  
+$EndComp
+Text Notes 5550 3100 0    157  ~ 0
+USB C 2.0
+Wire Wire Line
+	6150 4150 6300 4150
+Wire Wire Line
+	6300 4150 6300 4250
+Wire Wire Line
+	6150 4250 6300 4250
+Wire Wire Line
+	6150 4350 6300 4350
+Wire Wire Line
+	6300 4350 6300 4450
+Wire Wire Line
+	6150 4450 6300 4450
+Text GLabel 6900 4250 2    50   Input ~ 0
+usb_d_N
+Text GLabel 6900 4450 2    50   Input ~ 0
+usb_d_P
+$Comp
+L Device:Polyfuse_Small F1
+U 1 1 610EA704
+P 6500 3650
+F 0 "F1" V 6295 3650 50  0000 C CNN
+F 1 "500m" V 6386 3650 50  0000 C CNN
+F 2 "" H 6550 3450 50  0001 L CNN
+F 3 "~" H 6500 3650 50  0001 C CNN
+	1    6500 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6300 4250 6900 4250
+Connection ~ 6300 4250
+Wire Wire Line
+	6300 4450 6900 4450
+Connection ~ 6300 4450
+Wire Wire Line
+	6150 3650 6400 3650
+Text GLabel 6900 3650 2    50   Input ~ 0
+5v_post_fuse
+NoConn ~ 6150 4750
+NoConn ~ 6150 4850
+$Comp
+L power:GND #PWR0104
+U 1 1 610FA823
+P 5550 5450
+F 0 "#PWR0104" H 5550 5200 50  0001 C CNN
+F 1 "GND" H 5555 5277 50  0000 C CNN
+F 2 "" H 5550 5450 50  0001 C CNN
+F 3 "" H 5550 5450 50  0001 C CNN
+	1    5550 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 5150 5250 5300
+Wire Wire Line
+	5250 5300 5550 5300
+Wire Wire Line
+	5550 5300 5550 5150
+Wire Wire Line
+	5550 5300 5550 5450
+Connection ~ 5550 5300
+Wire Wire Line
+	6600 3650 6900 3650
+$Comp
+L Device:C C4
+U 1 1 6110DA96
+P 1000 6900
+F 0 "C4" H 1115 6946 50  0000 L CNN
+F 1 "0.1uF" H 1115 6855 50  0000 L CNN
+F 2 "" H 1038 6750 50  0001 C CNN
+F 3 "~" H 1000 6900 50  0001 C CNN
+	1    1000 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 6600 1000 6750
+$Comp
+L Device:C C5
+U 1 1 611224D5
+P 1500 6900
+F 0 "C5" H 1615 6946 50  0000 L CNN
+F 1 "0.1uF" H 1615 6855 50  0000 L CNN
+F 2 "" H 1538 6750 50  0001 C CNN
+F 3 "~" H 1500 6900 50  0001 C CNN
+	1    1500 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 6600 1500 6750
+$Comp
+L Device:C C6
+U 1 1 61124B4B
+P 2000 6900
+F 0 "C6" H 2115 6946 50  0000 L CNN
+F 1 "0.1uF" H 2115 6855 50  0000 L CNN
+F 2 "" H 2038 6750 50  0001 C CNN
+F 3 "~" H 2000 6900 50  0001 C CNN
+	1    2000 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 6600 2000 6750
+$Comp
+L Device:C C7
+U 1 1 6112743E
+P 2500 6900
+F 0 "C7" H 2615 6946 50  0000 L CNN
+F 1 "0.1uF" H 2615 6855 50  0000 L CNN
+F 2 "" H 2538 6750 50  0001 C CNN
+F 3 "~" H 2500 6900 50  0001 C CNN
+	1    2500 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 6600 2500 6750
+$Comp
+L Device:C C8
+U 1 1 61129E55
+P 3000 6900
+F 0 "C8" H 3115 6946 50  0000 L CNN
+F 1 "0.1uF" H 3115 6855 50  0000 L CNN
+F 2 "" H 3038 6750 50  0001 C CNN
+F 3 "~" H 3000 6900 50  0001 C CNN
+	1    3000 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 6600 3000 6750
+Wire Wire Line
+	1000 6600 1500 6600
+Connection ~ 1500 6600
+Wire Wire Line
+	1500 6600 2000 6600
+Connection ~ 2000 6600
+Wire Wire Line
+	2000 6600 2500 6600
+Connection ~ 2500 6600
+Wire Wire Line
+	2500 6600 3000 6600
+Wire Wire Line
+	1000 7050 1000 7200
+Wire Wire Line
+	1500 7050 1500 7200
+Wire Wire Line
+	2500 7050 2500 7200
+Wire Wire Line
+	3000 7050 3000 7200
+Wire Wire Line
+	3000 7200 2500 7200
+Connection ~ 1500 7200
+Wire Wire Line
+	1500 7200 1000 7200
+Connection ~ 2000 7200
+Wire Wire Line
+	2000 7200 1500 7200
+Connection ~ 2500 7200
+Wire Wire Line
+	2500 7200 2000 7200
+Text GLabel 1950 6350 0    50   Input ~ 0
+5v_post_fuse
+Wire Wire Line
+	1950 6350 2000 6350
+Wire Wire Line
+	2000 6350 2000 6600
+$Comp
+L power:GND #PWR0105
+U 1 1 6114EEAA
+P 2000 7350
+F 0 "#PWR0105" H 2000 7100 50  0001 C CNN
+F 1 "GND" H 2005 7177 50  0000 C CNN
+F 2 "" H 2000 7350 50  0001 C CNN
+F 3 "" H 2000 7350 50  0001 C CNN
+	1    2000 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 7050 2000 7200
+Wire Wire Line
+	2000 7200 2000 7350
+Text Notes 900  6100 0    157  ~ 0
+Decoupling Resistor
+Wire Wire Line
+	9250 1200 9450 1200
+Wire Wire Line
+	9650 1200 9650 1400
+Wire Wire Line
+	9550 1200 9550 1400
+Connection ~ 9550 1200
+Wire Wire Line
+	9550 1200 9650 1200
+Wire Wire Line
+	9450 1400 9450 1200
+Connection ~ 9450 1200
+Wire Wire Line
+	9450 1200 9550 1200
+Text GLabel 9250 1200 0    50   Input ~ 0
+5v_post_fuse
+Wire Wire Line
+	8800 1900 8950 1900
+Wire Wire Line
+	8800 2100 8950 2100
+$EndSCHEMATC
