@@ -1,0 +1,187 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U3001
+U 1 1 613B169E
+P 7150 3900
+F 0 "U3001" H 7650 2050 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 7650 1950 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 7150 3900 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 7150 3900 50  0001 C CNN
+	1    7150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03003
+U 1 1 613B16A4
+P 7050 5800
+F 0 "#PWR03003" H 7050 5550 50  0001 C CNN
+F 1 "GND" H 7055 5627 50  0000 C CNN
+F 2 "" H 7050 5800 50  0001 C CNN
+F 3 "" H 7050 5800 50  0001 C CNN
+	1    7050 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 5700 7050 5750
+Wire Wire Line
+	7150 5700 7150 5750
+Wire Wire Line
+	7150 5750 7050 5750
+Connection ~ 7050 5750
+Wire Wire Line
+	7050 5750 7050 5800
+Text GLabel 6400 2600 0    50   Input ~ 0
+IC_XTAL1
+Text GLabel 6400 2800 0    50   Input ~ 0
+IC_XTAL2
+Text Notes 6200 1600 0    157  ~ 0
+Microcontroller
+$Comp
+L Device:C C3003
+U 1 1 613B16B2
+P 6250 3950
+F 0 "C3003" H 6365 3996 50  0000 L CNN
+F 1 "1uF" H 6365 3905 50  0000 L CNN
+F 2 "" H 6288 3800 50  0001 C CNN
+F 3 "~" H 6250 3950 50  0001 C CNN
+	1    6250 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3700 6250 3700
+Wire Wire Line
+	6250 3700 6250 3800
+$Comp
+L power:GND #PWR03002
+U 1 1 613B16BA
+P 6250 4100
+F 0 "#PWR03002" H 6250 3850 50  0001 C CNN
+F 1 "GND" H 6255 3927 50  0000 C CNN
+F 2 "" H 6250 4100 50  0001 C CNN
+F 3 "" H 6250 4100 50  0001 C CNN
+	1    6250 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03001
+U 1 1 613B16C0
+P 3750 3100
+F 0 "#PWR03001" H 3750 2850 50  0001 C CNN
+F 1 "GND" H 3755 2927 50  0000 C CNN
+F 2 "" H 3750 3100 50  0001 C CNN
+F 3 "" H 3750 3100 50  0001 C CNN
+	1    3750 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3001
+U 1 1 613B16C6
+P 3250 2750
+F 0 "C3001" H 3365 2796 50  0000 L CNN
+F 1 "C" H 3365 2705 50  0000 L CNN
+F 2 "" H 3288 2600 50  0001 C CNN
+F 3 "~" H 3250 2750 50  0001 C CNN
+	1    3250 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3002
+U 1 1 613B16CC
+P 4250 2750
+F 0 "C3002" H 4365 2796 50  0000 L CNN
+F 1 "C" H 4365 2705 50  0000 L CNN
+F 2 "" H 4288 2600 50  0001 C CNN
+F 3 "~" H 4250 2750 50  0001 C CNN
+	1    4250 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal_GND24_Small Y3001
+U 1 1 613B16D2
+P 3750 2450
+F 0 "Y3001" H 3700 2850 50  0000 L CNN
+F 1 "Crystal_GND24_Small" H 3350 2750 50  0000 L CNN
+F 2 "" H 3750 2450 50  0001 C CNN
+F 3 "~" H 3750 2450 50  0001 C CNN
+	1    3750 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 2450 3250 2450
+Wire Wire Line
+	3250 2450 3250 2600
+Wire Wire Line
+	3850 2450 4250 2450
+Wire Wire Line
+	4250 2450 4250 2600
+Wire Wire Line
+	3750 2250 3950 2250
+Wire Wire Line
+	3950 2650 3750 2650
+Wire Wire Line
+	3750 2650 3750 2550
+Wire Wire Line
+	3250 2450 3250 2150
+Connection ~ 3250 2450
+Wire Wire Line
+	4250 2450 4250 2150
+Connection ~ 4250 2450
+Text GLabel 3250 2150 1    50   Input ~ 0
+IC_XTAL1
+Text GLabel 4250 2150 1    50   Input ~ 0
+IC_XTAL2
+Wire Wire Line
+	3750 2250 3750 2350
+Wire Wire Line
+	3950 2250 3950 2650
+Wire Wire Line
+	3250 3000 3750 3000
+Wire Wire Line
+	3750 3000 3750 3100
+Wire Wire Line
+	3750 3000 4250 3000
+Connection ~ 3750 3000
+Wire Wire Line
+	3750 2650 3750 3000
+Connection ~ 3750 2650
+Wire Wire Line
+	3250 2900 3250 3000
+Wire Wire Line
+	4250 2900 4250 3000
+Text Notes 2700 1600 0    157  ~ 0
+Crystal Oscilliator
+Wire Wire Line
+	6850 1900 7050 1900
+Wire Wire Line
+	7250 1900 7250 2100
+Wire Wire Line
+	7150 1900 7150 2100
+Connection ~ 7150 1900
+Wire Wire Line
+	7150 1900 7250 1900
+Wire Wire Line
+	7050 2100 7050 1900
+Connection ~ 7050 1900
+Wire Wire Line
+	7050 1900 7150 1900
+Text GLabel 6850 1900 0    50   Input ~ 0
+5v_post_fuse
+Wire Wire Line
+	6400 2600 6550 2600
+Wire Wire Line
+	6400 2800 6550 2800
+$EndSCHEMATC
