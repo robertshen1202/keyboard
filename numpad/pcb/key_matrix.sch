@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -469,9 +469,6 @@ Connection ~ 5850 3650
 Wire Wire Line
 	5850 3650 5850 5150
 Wire Wire Line
-	2600 3400 3100 3400
-Connection ~ 3100 3400
-Wire Wire Line
 	3100 3400 3850 3400
 Connection ~ 3850 3400
 Wire Wire Line
@@ -514,24 +511,55 @@ Wire Wire Line
 Connection ~ 3100 6400
 Wire Wire Line
 	3100 6400 4600 6400
-Text GLabel 3600 2400 1    50   Input ~ 0
-column_0
-Text GLabel 4350 2400 1    50   Input ~ 0
-column_1
-Text GLabel 5100 2400 1    50   Input ~ 0
-column_2
-Text GLabel 5850 2400 1    50   Input ~ 0
-column_3
-Text GLabel 2600 3400 0    50   Input ~ 0
-row_0
-Text GLabel 2600 4150 0    50   Input ~ 0
-row_1
-Text GLabel 2600 4900 0    50   Input ~ 0
-row_2
-Text GLabel 2600 5650 0    50   Input ~ 0
-row_3
-Text GLabel 2600 6400 0    50   Input ~ 0
-row_4
 Text Notes 3050 1800 0    157  ~ 0
 Keyboard Matrix
+Entry Wire Line
+	2500 3300 2600 3400
+Entry Wire Line
+	2500 4050 2600 4150
+Entry Wire Line
+	2500 4800 2600 4900
+Entry Wire Line
+	2500 5550 2600 5650
+Entry Wire Line
+	2500 6300 2600 6400
+Wire Wire Line
+	3100 3400 2600 3400
+Connection ~ 3100 3400
+Text HLabel 2150 2700 0    50   Output ~ 0
+row_bus
+Wire Bus Line
+	2500 2700 2150 2700
+Text HLabel 2150 2300 0    50   Input ~ 0
+column_bus
+Entry Wire Line
+	3600 2400 3500 2300
+Entry Wire Line
+	4250 2300 4350 2400
+Entry Wire Line
+	5000 2300 5100 2400
+Entry Wire Line
+	5750 2300 5850 2400
+Text Label 2700 3400 0    50   ~ 0
+row_0
+Text Label 2700 4150 0    50   ~ 0
+row_1
+Text Label 2700 4900 0    50   ~ 0
+row_2
+Text Label 2700 5650 0    50   ~ 0
+row_3
+Text Label 2700 6400 0    50   ~ 0
+row_4
+Text Label 3600 2550 0    50   ~ 0
+column_0
+Text Label 4350 2550 0    50   ~ 0
+column_1
+Text Label 5100 2550 0    50   ~ 0
+column_2
+Text Label 5850 2550 0    50   ~ 0
+column_3
+Wire Bus Line
+	2150 2300 5750 2300
+Wire Bus Line
+	2500 2700 2500 6300
 $EndSCHEMATC
